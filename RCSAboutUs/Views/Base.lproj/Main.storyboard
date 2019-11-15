@@ -12,16 +12,189 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RCSAboutUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfs-dL-P0T">
+                                <rect key="frame" x="0.0" y="140" width="414" height="1260"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="0eG-VT-zK8">
+                                        <rect key="frame" x="8" y="8" width="398" height="1146"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WUE-cM-hU3">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="160"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Artjoms_Vorona_foto" translatesAutoresizingMaskIntoConstraints="NO" id="eKW-ot-8Wx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="160" id="HZ9-mv-nEz"/>
+                                                            <constraint firstAttribute="height" constant="160" id="NhE-Dk-JYO"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artjoms Vorona" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrI-GW-UXL">
+                                                        <rect key="frame" x="168" y="0.0" width="230" height="160"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="160" id="3jf-uC-Tzh"/>
+                                                            <constraint firstAttribute="width" constant="230" id="Yt2-Ut-U3z"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5u-4n-5ZP">
+                                                <rect key="frame" x="0.0" y="169" width="398" height="379"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="398" id="N5t-6X-w6l"/>
+                                                    <constraint firstAttribute="height" constant="379" id="aN7-yR-Ule"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Current occupation: long-term sales and operational manager of banking IT solutions.">
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="0.97255000000000003" green="0.97255000000000003" blue="0.97255000000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.11373" green="0.10979999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.11373" green="0.10979999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Additional future occupation: iOS mobile developer (Swift).">
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="0.97255000000000003" green="0.97255000000000003" blue="0.97255000000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.11373" green="0.10979999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">Detailed profile
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <mutableString key="content">Name: Artjoms Vorona Age: 38
+Place of living: Riga, Latvia
+Education
+University of Latvia - Bachelor degree in Business Administration
+Riga Coding School - iOS Software developer courses (in the process)
+Technical skills
+Understanding the main principles of secure banking and financial transactions
+IT, Finance and Legal knowledge for company operational management
+Swift language knowledge for developing iOS applications (incl. Xcode, Firebase, Github, Adobe XD)
+Languges
+Russian (native), English, Latvian.
+German and French (in the process of learning).</mutableString>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PT3-iG-c3B">
+                                                <rect key="frame" x="0.0" y="557" width="398" height="160"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b308c75e-ca06-48ee-b27a-d4f757210faf" translatesAutoresizingMaskIntoConstraints="NO" id="Zmy-sQ-UBd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="160" id="fIa-qv-3GM"/>
+                                                            <constraint firstAttribute="width" constant="160" id="fJ2-cm-edo"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kate Kļaviņa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ag-uP-Tcr">
+                                                        <rect key="frame" x="168" y="0.0" width="230" height="160"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="160" id="38H-RH-ayy"/>
+                                                            <constraint firstAttribute="width" constant="230" id="XyO-56-Rtu"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIa-PQ-Muu">
+                                                <rect key="frame" x="0.0" y="726" width="398" height="420"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="398" id="KLt-h4-8ak"/>
+                                                    <constraint firstAttribute="height" constant="420" id="c5I-DD-SG1"/>
+                                                </constraints>
+                                                <mutableString key="text">Current occupation: Teacher, Student, Freelance Multimedia art designer, Graphic Designer Additional future occupation: iOS mobile developer (Swift).Detailed profile
+Name: Kate Klavina Age: 22
+Place of living: Riga, Latvia
+Education:
+University of Latvia - Bachelor degree in Education Sciences (in the process)
+Riga Coding School - iOS Software developer courses (in the process)                 
+Riga Multimedia and Art School - Multimedia Art designer(Web)
+Technical skills
+Adobe Illustrator/Photoshop/Indesign Swift language knowledge for developing iOS applications (incl. Xcode, Firebase, Github, Adobe XD)
+Languges
+Latvian (native), English, Russian.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0eG-VT-zK8" firstAttribute="top" secondItem="xfs-dL-P0T" secondAttribute="top" constant="8" id="0xq-fQ-Rqf"/>
+                                    <constraint firstAttribute="bottom" secondItem="0eG-VT-zK8" secondAttribute="bottom" constant="46" id="0yz-UC-x21"/>
+                                    <constraint firstAttribute="trailing" secondItem="0eG-VT-zK8" secondAttribute="trailing" constant="8" id="AXN-qH-Ers"/>
+                                    <constraint firstItem="0eG-VT-zK8" firstAttribute="leading" secondItem="xfs-dL-P0T" secondAttribute="leading" constant="8" id="cNK-We-AUz"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="I5T-sH-hhX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Cml-Ou-ijZ"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xfs-dL-P0T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Tay-yc-6Wa"/>
+                            <constraint firstItem="xfs-dL-P0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V1G-gT-bGQ"/>
+                            <constraint firstAttribute="bottom" secondItem="xfs-dL-P0T" secondAttribute="bottom" id="jdE-YE-t0q"/>
+                            <constraint firstItem="xfs-dL-P0T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mWg-co-DeV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="About Us" id="uE2-ki-dPz"/>
+                    <size key="freeformSize" width="414" height="1400"/>
+                    <connections>
+                        <outlet property="artjomsPicture" destination="eKW-ot-8Wx" id="0dD-mD-zmA"/>
+                        <outlet property="katePicture" destination="Zmy-sQ-UBd" id="8hc-1E-fHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="141"/>
+            <point key="canvasLocation" x="2192.753623188406" y="-52.232142857142854"/>
         </scene>
         <!--Our projects-->
         <scene sceneID="ThB-2D-Jg0">
@@ -186,7 +359,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Artjoms_Vorona_foto" width="512" height="512"/>
         <image name="a.circle" catalog="system" width="64" height="60"/>
+        <image name="b308c75e-ca06-48ee-b27a-d4f757210faf" width="1156" height="1156"/>
         <image name="i.circle" catalog="system" width="64" height="60"/>
         <image name="p.circle" catalog="system" width="64" height="60"/>
     </resources>
