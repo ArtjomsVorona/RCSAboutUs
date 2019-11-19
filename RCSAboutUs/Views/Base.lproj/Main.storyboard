@@ -123,7 +123,7 @@ German and French (in the process of learning).</string>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PT3-iG-c3B">
                                                 <rect key="frame" x="0.0" y="557" width="398" height="160"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b308c75e-ca06-48ee-b27a-d4f757210faf" translatesAutoresizingMaskIntoConstraints="NO" id="Zmy-sQ-UBd">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b308c75e-ca06-48ee-b27a-d4f757210faf-2" translatesAutoresizingMaskIntoConstraints="NO" id="Zmy-sQ-UBd">
                                                         <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="160" id="fIa-qv-3GM"/>
@@ -361,7 +361,7 @@ Latvian (native), English, Russian.</string>
     <resources>
         <image name="Artjoms_Vorona_foto" width="512" height="512"/>
         <image name="a.circle" catalog="system" width="64" height="60"/>
-        <image name="b308c75e-ca06-48ee-b27a-d4f757210faf" width="1156" height="1156"/>
+        <image name="b308c75e-ca06-48ee-b27a-d4f757210faf-2" width="1156" height="1156"/>
         <image name="i.circle" catalog="system" width="64" height="60"/>
         <image name="p.circle" catalog="system" width="64" height="60"/>
     </resources>
