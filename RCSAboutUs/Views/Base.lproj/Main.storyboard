@@ -100,7 +100,7 @@ Cg
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <mutableString key="content">Name: Artjoms Vorona Age: 38
+                                                        <string key="content">Name: Artjoms Vorona Age: 38
 Place of living: Riga, Latvia
 Education
 University of Latvia - Bachelor degree in Business Administration
@@ -111,7 +111,7 @@ IT, Finance and Legal knowledge for company operational management
 Swift language knowledge for developing iOS applications (incl. Xcode, Firebase, Github, Adobe XD)
 Languges
 Russian (native), English, Latvian.
-German and French (in the process of learning).</mutableString>
+German and French (in the process of learning).</string>
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             <font key="NSFont" size="16" name="HelveticaNeue"/>
@@ -148,7 +148,7 @@ German and French (in the process of learning).</mutableString>
                                                     <constraint firstAttribute="width" constant="398" id="KLt-h4-8ak"/>
                                                     <constraint firstAttribute="height" constant="420" id="c5I-DD-SG1"/>
                                                 </constraints>
-                                                <mutableString key="text">Current occupation: Teacher, Student, Freelance Multimedia art designer, Graphic Designer Additional future occupation: iOS mobile developer (Swift).Detailed profile
+                                                <string key="text">Current occupation: Teacher, Student, Freelance Multimedia art designer, Graphic Designer Additional future occupation: iOS mobile developer (Swift).Detailed profile
 Name: Kate Klavina Age: 22
 Place of living: Riga, Latvia
 Education:
@@ -158,7 +158,7 @@ Riga Multimedia and Art School - Multimedia Art designer(Web)
 Technical skills
 Adobe Illustrator/Photoshop/Indesign Swift language knowledge for developing iOS applications (incl. Xcode, Firebase, Github, Adobe XD)
 Languges
-Latvian (native), English, Russian.</mutableString>
+Latvian (native), English, Russian.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>

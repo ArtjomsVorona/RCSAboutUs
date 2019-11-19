@@ -9,13 +9,26 @@
 import WebKit
 import UIKit
 
-class WebViewController: UIViewController {
+class WebViewController: UIViewController, WKNavigationDelegate {
     
-    @IBOutlet weak var gitWebView: WKWebView!
+    var passedLink = ""
+    
+    @IBOutlet var gitWebView: WKWebView!
+    
+    override func loadView() {
+        gitWebView = WKWebView()
+        gitWebView.navigationDelegate = self
+        view = gitWebView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let url = URL(string: passedLink) ?? URL(string:"https://github.com/ArtjomsVorona/RCSAboutUs")
+        let urlRequest = URLRequest(url: url!)
+        gitWebView.load(urlRequest)
+        gitWebView.allowsBackForwardNavigationGestures = true
     }
+    
 
 }
